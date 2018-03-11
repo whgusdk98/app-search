@@ -1,23 +1,50 @@
 <!doctype html>
 <html>
 <head>
-  <title>APP SEARCH-welcome</title>
+  <title>APP SEARCH</title>
   <meta charset="utf-8">
+  <style>
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1{
+      font-size:40px;
+      text-align: center;
+      border:2px solid gray;
+      padding:10px;
+      margin:0px;
+    }
+    ul{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #gird{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+  </style>
 </head>
 <body>
   <img src="main.jpg" width="100%">
-  <h1><a href="index.html">APP SEARCH</a></h1>
-  <ul>
-    <li><a href="1.html">GAME</a></li></a>
-    <li><a href="2.html">TRAVEL</a></li>
-    <li><a href="3.html">CAMERA</a></li>
-  </ul>
-  <h2>GAME</h2>
-  <a href="https://play.google.com/store/search?q=%EB%A0%88%EC%9D%B4%EC%8B%B1%EA%B2%8C%EC%9E%84&c=apps"
-   target="_blank">-racing game-<br>
-  <img src="racing.png" width="20%"></a><br>
-  <a href="https://play.google.com/store/search?q=%ED%83%88%EC%B6%9C%EA%B2%8C%EC%9E%84&c=apps"
-   target="_blank">-escape game-<br>
-  <img src="escape.png" width="20%"></a>
+  <h1><a href="index.html"style="text-decoration:underline">APP SEARCH</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.html" style="color:red">GAME</a></li>
+      <li><a href="2.html">TRAVEL</a></li>
+      <li><a href="3.html">CAMERA</a></li>
+    </ul>
+    <div>
+      <h2>GAME</h2>
+      <a href="https://play.google.com/store/search?q=%EB%A0%88%EC%9D%B4%EC%8B%B1%EA%B2%8C%EC%9E%84&c=apps"
+       target="_blank">-racing game-<br>
+      <img src="racing.png" width="20%"></a><br>
+      <a href="https://play.google.com/store/search?q=%ED%83%88%EC%B6%9C%EA%B2%8C%EC%9E%84&c=apps"
+       target="_blank">-escape game-<br>
+      <img src="escape.png" width="20%"></a>
+    </div>
+</div>
 </body>
 </html>
